@@ -19,20 +19,3 @@ Responsable 4 :point_right: Punto 4
 
 Definí el tipo de cada función (de lo contrario te van a aparecer errores).
 
-
-## Restricciones
-
-* Los nombres de las funciones y sus parámetros deben ser representativos o la entrega deberá ser corregida.
-
-* No debe haber expresiones del tipo
-
-``` haskell
-f x y  | x == y    = True 
-       | otherwise = False
-```
-
-sino hacer directamente 
-
-``` haskell
-f x y = x == y
-``` 
