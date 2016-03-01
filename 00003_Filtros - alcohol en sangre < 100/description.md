@@ -1,26 +1,17 @@
-> Necesitamos saber qué personas tienen un nivel de alcohol en sangre menor a 100. 
+> Dado una persona indicar si esa persona tiene un nombre de más de cuatro letras.
 
-Para eso debe definir una función `cumplePersona/1` generando una función que sólo utilice composición.
+Para eso debe definir una función `masDeCuatroLetras/1` que sólo utilice composición. 
 
-**Ejemplo:** si queremos saber quiénes no están borrachas deberíamos hacer
+:star: No podés usar
 
-``` haskell
-*Main> filter  ((== False) . estaBorracha)  discotequers
--- o bien
-*Main> filter  (not . estaBorracha)  discotequers
-``` 
-
-Para esta versión del TP en Mumuki vamos a simular esta consulta
+* expresiones lambda (aun si las conocés)
+* ni funciones auxiliares nuevas (sólo podés invocar las que usaste previamente en el TP o bien las predefinidas)
 
 ``` haskell
-*Main> quienesCumplen cumplePersona discotequers
+*Main> masDeCuatroLetras flor 
+False
+*Main> masDeCuatroLetras rodri
+True
 ``` 
 
-Se pide que pienses la función `cumplePersona/1` (que va de Persona a Bool), la que se debe pasar a filter para resolver el requerimiento de saber qué personas tienen un nivel de alcohol en sangre menor a 100. 
-
-:star: Recordá que 
-
-* no podés usar expresiones lambda (aun si las conocés)
-* no podés definir funciones nuevas (sólo podés invocar las que usaste previamente en el TP o bien las predefinidas)
-* sólo podés utilizar composición (Mumuki va a validar eso)
-
+**Nota:** flor y rodri son funciones que representan personas, no Strings.
