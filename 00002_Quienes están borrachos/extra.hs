@@ -40,6 +40,9 @@ datosDe nombrePersona (persona:personas)
    |  nombrePersona == nombre persona = persona
    |  otherwise                       = datosDe nombrePersona personas
 
+bebidas (Agitador _ _ bebidas' _) = bebidas'
+bebidas (Tranqui _ bebidas') = bebidas'
+
 graduacionAlcoholica :: String -> [(String, Int)] -> Int
 graduacionAlcoholica trago ((trago', graduacion):restoBebidas)
   | (trago' == trago) = graduacion
