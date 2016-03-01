@@ -32,6 +32,20 @@ tragos = [("Coca cola", 0), ("Grog XD", 350),
 --- Nombre de la bebida  
 --- Graduación alcohólica de cada vaso  
 
+nombre :: Persona -> String
+nombre (Agitador _ _ _ nombre') = nombre'
+nombre (Tranqui nombre' _) = nombre'
+
+datosDe nombrePersona (persona:personas) 
+   |  nombrePersona == nombre persona = persona
+   |  otherwise                       = datosDe nombrePersona personas
+
+graduacionAlcoholica :: String -> [(String, Int)] -> Int
+graduacionAlcoholica trago ((trago', graduacion):restoBebidas)
+  | (trago' == trago) = graduacion
+  | otherwise         = graduacionAlcoholica trago restoBebidas
+
+
 sumarAlcohol [] = 0
 sumarAlcohol ((bebida, vasos):restoBebidas) = sumarAlcohol restoBebidas + ((graduacionAlcoholica bebida tragos) * vasos)
 
