@@ -32,6 +32,10 @@ tragos = [("Coca cola", 0), ("Grog XD", 350),
 --- Nombre de la bebida  
 --- Graduación alcohólica de cada vaso  
 
+sumarAlcohol [] = 0
+sumarAlcohol ((bebida, vasos):restoBebidas) = sumarAlcohol restoBebidas + ((graduacionAlcoholica bebida tragos) * vasos)
+
+
 estaBorracha::Persona -> Bool
 estaBorracha (Agitador _ aguante queBebidas _) = aguante < sumarAlcohol queBebidas 
 estaBorracha (Tranqui _ queBebidas) = sumarAlcohol queBebidas > 0
