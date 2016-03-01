@@ -1,4 +1,4 @@
 ---
 expectations:
-- binding: cumplePersona
+- binding: masDeCuatroLetras
   inspection: HasComposition
