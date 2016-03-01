@@ -1,5 +1,5 @@
 describe "" $ do
-  it "Tiene mas de cuatro letras flor" $ do
+  it "Flor no tiene mas de cuatro letras" $ do
      masDeCuatroLetras flor `shouldBe` False
-  it "Filtrar borrachos de una lista vacia" $ do
+  it "Rodri tiene mas de cuatro letras" $ do
      masDeCuatroLetras rodri `shouldBe` True
