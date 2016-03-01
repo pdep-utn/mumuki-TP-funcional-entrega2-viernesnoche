@@ -11,9 +11,9 @@ Responsable 1 :point_right: Ejercicio 1
 
 Responsable 2 :point_right: Ejercicio 2 
 
-Responsable 3 :point_right: Ejercicios 3 y 4
+Responsable 3 :point_right: Ejercicio 3
 
-Responsable 4 :point_right: Ejercicios 5 y 6
+Responsable 4 :point_right: Ejercicio 4
 
 ## Importante
 
