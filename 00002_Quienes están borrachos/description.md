@@ -1,4 +1,4 @@
-Dada una lista de personas, queremos saber qué personas están borrachas. Resolverlo **con listas por comprensión** (no podés utilizar recursividad), generando una tupla (Nombre de la personas, Bebidas que tomó)
+> Dada una lista de personas, queremos saber qué personas están borrachas. Resolverlo **con listas por comprensión** (no podés utilizar recursividad), generando una tupla (Nombre de la personas, Bebidas que tomó)
 
 ``` haskell
 *Main> quienesEstanBorrachos discotequers
