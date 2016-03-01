@@ -2,10 +2,7 @@
 
 Para eso debe definir una función `masDeCuatroLetras/1` que sólo utilice composición. 
 
-:star: No podés usar
-
-* expresiones lambda (aun si las conocés)
-* ni funciones auxiliares nuevas (sólo podés invocar las que usaste previamente en el TP o bien las predefinidas)
+:thumbsdown: No podés usar expresiones lambda (aun si las conocés) ni funciones auxiliares nuevas (sólo podés invocar las que usaste previamente en el TP o bien las predefinidas).
 
 ``` haskell
 *Main> masDeCuatroLetras flor 
