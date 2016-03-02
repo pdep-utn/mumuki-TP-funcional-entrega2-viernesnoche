@@ -10,3 +10,11 @@ Lo que se pide es que armes la función inline que se le pasa al filter.
 
 :hand:
 Existe la función `bebidas/1` que dada una persona devuelve la lista de bebidas que tomó, sea agitador o tranquilo.
+
+:hand:
+Utilizar la función elem, ¡que funciona sobre tuplas!
+
+``` haskell
+*Main> elem ("Dodain", 2) [("Franco", 8), ("Leo", 3), ("Dodain", 2), ("Charly", 1)]
+True
+```
