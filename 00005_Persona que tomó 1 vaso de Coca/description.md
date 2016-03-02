@@ -1,4 +1,4 @@
-> Dado una persona indicar si esa persona tomó un vaso de "Coca cola"
+> Dada una persona indicar si esa persona tomó un vaso de "Coca cola"
 
 Para eso debe definir una función `tomoUnVasoDeCoca/1` que sólo utilice composición. 
 

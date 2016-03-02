@@ -1,4 +1,4 @@
-> Dado una persona indicar si esa persona tiene un nombre de más de cuatro letras.
+> Dada una persona indicar si esa persona tiene un nombre de más de cuatro letras.
 
 Para eso debe definir una función `masDeCuatroLetras/1` que sólo utilice composición. 
 
