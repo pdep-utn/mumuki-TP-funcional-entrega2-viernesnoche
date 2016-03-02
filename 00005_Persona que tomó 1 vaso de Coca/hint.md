@@ -14,7 +14,3 @@ Existe la función `bebidas/1` que dada una persona devuelve la lista de bebidas
 :hand:
 Utilizar la función elem, ¡que funciona sobre tuplas!
 
-``` haskell
-*Main> elem ("Dodain", 2) [("Franco", 8), ("Leo", 3), ("Dodain", 2), ("Charly", 1)]
-True
-```
