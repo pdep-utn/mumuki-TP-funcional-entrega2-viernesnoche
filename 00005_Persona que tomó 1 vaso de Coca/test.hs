@@ -1,5 +1,5 @@
 describe "" $ do
-  it "Flor no tomo cantidad par de bebidas" $ do
+  it "Flor no tomo un vaso de coca" $ do
      tomoUnVasoDeCoca flor `shouldBe` False
-  it "Deby tomo cantidad par de bebidas" $ do
-     tomoUnVasoDeCoca deby `shouldBe` True
+  it "Fer tomo un vaso de coca" $ do
+     tomoUnVasoDeCoca fer `shouldBe` True
