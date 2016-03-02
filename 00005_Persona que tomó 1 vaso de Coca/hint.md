@@ -12,5 +12,5 @@ Lo que se pide es que armes la función inline que se le pasa al filter.
 Existe la función `bebidas/1` que dada una persona devuelve la lista de bebidas que tomó, sea agitador o tranquilo.
 
 :hand:
-Utilizar la función elem, ¡que funciona sobre tuplas!
+Utilizar la función `elem/2`, ¡que funciona sobre tuplas!
 
