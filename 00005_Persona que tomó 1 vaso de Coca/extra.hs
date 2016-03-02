@@ -65,3 +65,14 @@ graduacionAlcoholica :: String -> [(String, Int)] -> Int
 graduacionAlcoholica trago ((trago', graduacion):restoBebidas)
   | (trago' == trago) = graduacion
   | otherwise         = graduacionAlcoholica trago restoBebidas
+  
+  
+alcoholEnSangre :: String -> [Persona] -> Int
+alcoholEnSangre nombrePersona personas =  sumarAlcohol (bebidas (datosDe nombrePersona personas))
+
+bebidas (Agitador _ _ bebidas' _) = bebidas'
+bebidas (Tranqui _ bebidas') = bebidas'
+
+sumarAlcohol [] = 0
+sumarAlcohol ((bebida, vasos):restoBebidas) = sumarAlcohol restoBebidas + ((graduacionAlcoholica bebida tragos) * vasos)
+
