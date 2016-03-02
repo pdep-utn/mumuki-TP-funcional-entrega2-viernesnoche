@@ -1,6 +1,6 @@
 > Dada una persona indicar si esa persona tomó una cantidad par de bebidas
 
-Para eso debe definir una función `tomoCantidadParDeBebidas/1` que sólo utilice composición. 
+Para eso debe definir una función `tomoCantidadParDeBebidas/1` que solo utilice composición. 
 
 :thumbsdown: No podés usar expresiones lambda (aun si las conocés) ni funciones auxiliares nuevas (sólo podés invocar las que usaste previamente en el TP o bien las predefinidas).
 
