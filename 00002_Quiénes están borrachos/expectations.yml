@@ -1,0 +1,4 @@
+---
+expectations:
+- binding: quienesEstanBorrachos
+  inspection: HasComprehension
