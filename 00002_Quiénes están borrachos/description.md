@@ -7,6 +7,7 @@
 ```
 
  **Nota:** considerar que ya están definidas las funciones 
+ 
  * `estaBorracha/1` de la entrega 1 (no tenés que definirla).
  * `nombre/1` que dada una persona te devuelve su nombre y
  * `bebidas/1` que dada una persona te devuelve la lista de bebidas que tomó
