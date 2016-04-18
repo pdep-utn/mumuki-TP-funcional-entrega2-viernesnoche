@@ -6,8 +6,8 @@
  ("flor", [ ("Grapa", 1)] ) ]
 ```
 
- **Nota:** considerar que ya están definidas las funciones 
+ **Nota:** considerar que ya están definidas las funciones (no tenés que definirla y si las definís Mumuki te va a tirar error)
  
- * `estaBorracha/1` de la entrega 1 (no tenés que definirla).
+ * `estaBorracha/1` de la entrega 1
  * `nombre/1` que dada una persona te devuelve su nombre y
  * `bebidas/1` que dada una persona te devuelve la lista de bebidas que tomó
