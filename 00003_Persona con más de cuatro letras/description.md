@@ -12,3 +12,5 @@ True
 ``` 
 
 **Nota:** flor y rodri son funciones que representan personas, no Strings.
+
+Asumir que existe una función  `nombre/1` que devuelve el nombre de una persona (sea agitador o tranquilo)
