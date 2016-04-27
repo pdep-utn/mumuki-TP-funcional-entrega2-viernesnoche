@@ -1,4 +1,4 @@
-> Dada una persona indicar si esa persona tomó una cantidad par de bebidas
+> Dada una persona indicar si esa persona tomó una cantidad par de bebidas (no importan los vasos, sino la cantidad exacta de bebidas)
 
 Para eso debe definir una función `tomoCantidadParDeBebidas/1` que solo utilice composición. 
 
