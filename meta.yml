@@ -3,6 +3,7 @@ name: TP Func - Viernes noc - All the night 2
 locale: es
 type: practice
 beta: false
+teacher_info: 
 language: haskell
 id_format: '%05d'
 order:
